@@ -3,6 +3,8 @@
 echo 'step1'
 npm install hexo-cli
 echo 'step3'
-ls ./hexo-cli/bin/hexo
+ls ./node_modules/
+echo 'step3'
+ls ./node_modules/hexo-cli/bin/hexo
 echo 'step4'
 asdfasdfasdf
