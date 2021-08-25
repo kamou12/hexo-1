@@ -1,7 +1,7 @@
 #!/bin/bash
 # 生成hexo静态文件
 echo 'step1'
-npm install hexo-cli -g
+npm install hexo-cli
 echo 'step2'
 ls -l /usr/local/bin/hexo
 echo 'step3'
@@ -14,5 +14,7 @@ echo 'step6'
 ls /usr/
 echo 'step7'
 ls /usr/bin/
-echo 'step8'
+pwd
+ls /usr/bin/
+echo 'step9'
 /usr/local/bin/hexo generate
